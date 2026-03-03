@@ -1,0 +1,23 @@
+{
+  "name": "professional-project",
+  "version": "1.0.0",
+  "description": "Make a production level project",
+  "keywords": [
+    "node"
+  ],
+  "license": "ISC",
+  "author": "Arghya Dey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
